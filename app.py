@@ -18,28 +18,28 @@ print("Dependencies loaded successfully")
 
 # load model
 
-filename = "models\gnb.pickle"
+filename = "models/gnb.pickle"
 
 model1 = pickle.load(open(filename, "rb"))
 
 
-filename = "models\knn.pickle"
+filename = "models/knn.pickle"
 
 model2 = pickle.load(open(filename, "rb"))
 
 
 
-filename = "models\lr.pickle"
+filename = "models/lr.pickle"
 
 model3 = pickle.load(open(filename, "rb"))
 
 
-filename = "models\rf.pickle"
+filename = "models/rf.pickle"
 
 model4 = pickle.load(open(filename, "rb"))
 
 
-filename = "models\svc.pickle"
+filename = "models/svc.pickle"
 
 model5 = pickle.load(open(filename, "rb"))
 
